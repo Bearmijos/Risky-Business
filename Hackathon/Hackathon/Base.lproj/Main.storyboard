@@ -155,7 +155,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v7k-u4-66x">
-                                <rect key="frame" x="194" y="772" width="180" height="50"/>
+                                <rect key="frame" x="194" y="782" width="180" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="B9G-ML-CB5"/>
                                     <constraint firstAttribute="width" constant="180" id="nug-zR-Y7W"/>
@@ -186,7 +186,7 @@
                             <constraint firstItem="Pt4-Ym-bok" firstAttribute="top" secondItem="8fa-jO-MxT" secondAttribute="bottom" constant="40" id="hXe-wr-Ute"/>
                             <constraint firstItem="Pt4-Ym-bok" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="kSr-Lx-fIP"/>
                             <constraint firstItem="tD2-Yq-Bqi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="pH7-YM-VyF"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="v7k-u4-66x" secondAttribute="bottom" constant="40" id="um2-EH-zau"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="v7k-u4-66x" secondAttribute="bottom" constant="30" id="um2-EH-zau"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="o8D-Tu-9qa" secondAttribute="trailing" constant="15" id="wQh-ub-Dcb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -224,7 +224,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nta-k8-ODz">
-                                <rect key="frame" x="140" y="323" width="70" height="24"/>
+                                <rect key="frame" x="141" y="310" width="70" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Apply">
@@ -232,7 +232,7 @@
                                 </state>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5zN-at-KyW">
-                                <rect key="frame" x="58" y="171" width="235" height="188"/>
+                                <rect key="frame" x="59" y="158" width="235" height="188"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96078431369999995" green="1" blue="1" alpha="0.50457512839999996" colorSpace="calibratedRGB"/>
                                 <string key="text">You spent $123 on travel this month
@@ -247,18 +247,18 @@ You could be making
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="platinum" translatesAutoresizingMaskIntoConstraints="NO" id="42C-80-2Se">
-                                <rect key="frame" x="-39.5" y="171" width="493" height="188"/>
+                                <rect key="frame" x="-39" y="158" width="493" height="188"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YTr-FK-Efp">
-                                <rect key="frame" x="-39.5" y="171" width="493" height="190"/>
+                                <rect key="frame" x="-39" y="158" width="493" height="190"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="platButtonTap:" destination="ncv-R5-XqC" eventType="touchUpInside" id="pTt-9B-NBH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pxt-DL-GkK">
-                                <rect key="frame" x="140" y="545" width="70" height="24"/>
+                                <rect key="frame" x="141" y="522" width="70" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Apply">
@@ -266,7 +266,7 @@ You could be making
                                 </state>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cE8-eh-eLI">
-                                <rect key="frame" x="58" y="394" width="235" height="188"/>
+                                <rect key="frame" x="59" y="371" width="235" height="188"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96078431369999995" green="1" blue="1" alpha="0.50457512839999996" colorSpace="calibratedRGB"/>
                                 <string key="text">You spent $123 on dining this month
@@ -281,18 +281,18 @@ You could be making
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold" translatesAutoresizingMaskIntoConstraints="NO" id="3ol-va-hFY">
-                                <rect key="frame" x="58" y="388" width="299" height="200"/>
+                                <rect key="frame" x="59" y="365" width="299" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4yM-Te-CLW">
-                                <rect key="frame" x="58" y="392" width="299" height="192"/>
+                                <rect key="frame" x="59" y="369" width="299" height="192"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="goldButtonTap:" destination="ncv-R5-XqC" eventType="touchUpInside" id="tOU-jt-XUK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ba3-Sa-hdw">
-                                <rect key="frame" x="140" y="772" width="70" height="24"/>
+                                <rect key="frame" x="141" y="734" width="70" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Apply">
@@ -300,7 +300,7 @@ You could be making
                                 </state>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="j9S-5t-zPF">
-                                <rect key="frame" x="58" y="622" width="235" height="188"/>
+                                <rect key="frame" x="59" y="584" width="235" height="188"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96078431369999995" green="1" blue="1" alpha="0.50457512839999996" colorSpace="calibratedRGB"/>
                                 <string key="text">You spent $123 on shopping this month
@@ -315,14 +315,29 @@ You could be making
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="regular" translatesAutoresizingMaskIntoConstraints="NO" id="8pd-uE-SjQ">
-                                <rect key="frame" x="58" y="622" width="299" height="189"/>
+                                <rect key="frame" x="59" y="584" width="299" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="01l-Gu-6AW">
-                                <rect key="frame" x="58" y="622" width="299" height="189"/>
+                                <rect key="frame" x="59" y="584" width="299" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="regButtonTap:" destination="ncv-R5-XqC" eventType="touchUpInside" id="ay3-j7-3pw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ei-k0-S4p">
+                                <rect key="frame" x="40" y="782" width="180" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="gdi-V3-W2Z"/>
+                                    <constraint firstAttribute="width" constant="180" id="rJN-vz-pv2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="19"/>
+                                <state key="normal" title="Spending">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="cardsTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BXq-we-D8g"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="bkb-PC-n0j"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -330,9 +345,11 @@ You could be making
                         <constraints>
                             <constraint firstItem="IzF-vt-4Ml" firstAttribute="trailing" secondItem="bUZ-jh-fl3" secondAttribute="trailing" constant="15" id="1w1-eM-cwO"/>
                             <constraint firstItem="bUZ-jh-fl3" firstAttribute="leading" secondItem="IzF-vt-4Ml" secondAttribute="leading" constant="15" id="BWm-9C-GF5"/>
+                            <constraint firstItem="IzF-vt-4Ml" firstAttribute="bottom" secondItem="9ei-k0-S4p" secondAttribute="bottom" constant="30" id="Fcm-z8-iat"/>
                             <constraint firstItem="IzF-vt-4Ml" firstAttribute="trailing" secondItem="M6t-Nb-Apw" secondAttribute="trailing" constant="15" id="Jxf-bX-ONU"/>
                             <constraint firstItem="M6t-Nb-Apw" firstAttribute="leading" secondItem="IzF-vt-4Ml" secondAttribute="leading" constant="15" id="Nzb-8H-Voq"/>
                             <constraint firstItem="bUZ-jh-fl3" firstAttribute="top" secondItem="M6t-Nb-Apw" secondAttribute="bottom" id="S7t-cj-yaw"/>
+                            <constraint firstItem="9ei-k0-S4p" firstAttribute="leading" secondItem="IzF-vt-4Ml" secondAttribute="leading" constant="40" id="bDA-K5-oPT"/>
                             <constraint firstItem="M6t-Nb-Apw" firstAttribute="top" secondItem="IzF-vt-4Ml" secondAttribute="top" constant="20" id="ejx-3X-1hH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="IzF-vt-4Ml"/>
