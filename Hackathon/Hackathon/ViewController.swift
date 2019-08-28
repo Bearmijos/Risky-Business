@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     //MARK: Variables
     @IBOutlet weak var breakdownView: UIView!
     @IBOutlet weak var cardsButton: UIButton!
+    @IBOutlet weak var closeButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,4 +28,12 @@ class ViewController: UIViewController {
     @IBAction func cardsTapped(_ sender: UIButton) {
     }
     
+    @IBAction func swiped(_ sender: UISwipeGestureRecognizer) {
+        if sender.state == .ended {
+            performSegue(withIdentifier: "toCards", sender: sender)
+        }
+    }
+    
+    @IBAction func closeTapped(_ sender: UIButton) {
+    }
 }

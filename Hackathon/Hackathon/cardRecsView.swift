@@ -72,5 +72,10 @@ class cardRecsView: UIViewController {
         }
     }
     
+    @IBAction func swiped(_ sender: UISwipeGestureRecognizer) {
+        if sender.state == .ended {
+            performSegue(withIdentifier: "toSpending", sender: sender)
+        }
+    }
 }
 
